@@ -1,0 +1,85 @@
+
+:root{
+     --vermelhor: hsl(0, 100%, 74%);
+    --verde: hsl(154, 59%, 51%);
+    --azul: hsl(248, 32%, 49%);
+    --fonte-principal:'Poppins', sans-serif;
+    --branco-principal:#ffffff;  
+}
+
+
+
+body{
+    background-color: var(--vermelhor);
+    background-image: url(bg-intro-desktop.png);
+
+}
+section{
+ max-width: 50%; 
+} 
+
+.container {
+    font-family: var(--fonte-principal);
+    color: var(--branco-principal);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container__esquerdo{
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:  0 5em;
+    padding: 1.5rem;
+  
+}
+
+
+.container__titulo{
+    font-weight: 700;
+    font-size: 3em;
+    padding: 1.5rem;
+    text-align: center;
+
+}
+
+.container__paragrafo{
+      padding: 1.5rem;
+      padding-top: 0;
+     
+     
+}
+
+.botao__roxo{
+    background-color:var(--azul);
+    color: var(--branco-principal);
+    text-decoration: none;
+    width: 400px;
+    display: block;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.formulario{
+    box-sizing: border-box;
+    background-color: var(--branco-principal);
+    height: 30vh;
+
+
+}
+.input-padrao{
+    display: block;
+    /* padding:2em; */
+
+   
+}
+
+.formulario__areas{
+    padding: 6px;
+}
+
