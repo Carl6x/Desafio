@@ -30,7 +30,7 @@ body{
 .container__esquerdo{
     position:relative;
     left: 10%;
-    height:  50vh;
+    height:  55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
